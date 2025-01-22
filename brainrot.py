@@ -21,6 +21,10 @@ class Brainrott:
     def l(self):
         return False
 
+    def skibiditoilet(self,x):
+        z = eval(x)
+        return z
+
 
 brainrot = Brainrott()
 
@@ -33,6 +37,3 @@ if int(aura) >= 10:
 else:
     aura = brainrot.l()
 
-while aura:
-    brainrot.yap("+ aura")
-    brainrot.mew(1)
